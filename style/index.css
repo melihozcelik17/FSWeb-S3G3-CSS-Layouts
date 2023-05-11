@@ -1,1 +1,113 @@
 /* CSS stillerinizi buraya girin */
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 1%;
+    align-items: center;
+    
+}
+h2{
+    font-size: 30px;
+    color: rgb(238, 20, 20);
+}
+
+nav a{
+    border: solid 1px black;
+    color: rgb(0, 0, 0);;
+    padding: 2% 3%;
+}
+nav{
+    width: 25%;
+    text-align: right;
+}
+main{
+    width: 70vw;
+    margin: 0 auto;
+    background-image: url(https://picsum.photos/id/1/1000/700);
+    height: 37vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+}
+h1{
+    font-size: 48px;
+    color: rgb(238, 20, 20);
+}
+.button{
+    border: solid 1px black;
+    color: rgb(29, 15, 92);
+    padding: 2% 3%;
+    display: inline-block;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:4% 0 ;
+   }
+section div{
+    width: 30vw;
+    text-align: center;
+    padding-bottom: 2%;
+}   
+section img{
+    width: 100%;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+footer{
+    padding: 4%;
+    text-align: center;
+   }
+a:hover{
+    background: black;
+    color:#fcfbfc ;
+    cursor: pointer;
+}
+@media (max-width:500px){
+    header{
+        flex-direction:column;
+        justify-content: center;
+    }
+    nav a{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    main{
+        width: 90vw;
+        height: 47vw;
+        margin-top: 2%;
+        padding:0 ;
+        box-sizing: border-box;
+    }
+    section div{
+        width: 45vw;
+    }   
+    section{
+        padding:4% 0 ;
+        box-sizing: border-box;
+        margin: 0 auto;
+       }
+
+    
+}
